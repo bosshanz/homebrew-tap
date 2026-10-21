@@ -1,9 +1,9 @@
 cask "tuantuan" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.5"
-  sha256 arm:   "fef2e4cbb3c821717159b7407874e4a8ab569134f87f7711f85f5945457fb381",
-         intel: "31408ce766cff26234827a22b50149a3fcc5bd3e189eb3558ae203373c072d5a"
+  version "0.2.6"
+  sha256 arm:   "f956d9df84a6bf85e97dc585f903bb45617c68126014b78a2da2af5095d50219",
+         intel: "16a03edf4de4770f87ba0ea2c477d0bd7cc127590e0ac56c76fb6bbbeb056bda"
 
   url "https://github.com/bosshanz/tuantuan/releases/download/v#{version}/Tuantuan-#{version}-mac-#{arch}.dmg"
   name "Tuantuan"
